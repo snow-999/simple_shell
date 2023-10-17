@@ -179,6 +179,15 @@ int replace_str(char **old, char *new);
 int isCmd(info_t *info, char *path);
 char *dupChars(char *pathptr, int strt, int stp);
 char *findPath(info_t *info, char *pathptr, char *cmd);
+int hsh(info_t *info, char **av);
+int findBulitin(info_t *info);
+void findCmd(info_t *info);
+void forkCmd(info_t *info);
+ssize_t inputBuf(info_t *info, char **buff, size_t *leng);
+ssize_t getInput(info_t *info);
+ssize_t readBuf(info_t *info, char *buff, size_t *x);
+int getLine(info_t *info, char **str, size_t *leng);
+void sigintHandler(__attribute__((unused))int sig_num);
 
 
 

@@ -63,7 +63,7 @@ char *strngcat(char *dest, char *src, int x)
  * @c: charchter
  * Return: NULL
 */
-char *strgchr(char *str, char c)
+char *strngchr(char *str, char c)
 {
 	do {
 		if (*str == c)

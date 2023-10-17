@@ -5,7 +5,7 @@
  * @d: delimeter
  * Return: s
 */
-char **strow(char *str, char *d)
+char **strwo(char *str, char *d)
 {
 	int i, x, z, l, nwords = 0;
 	char **s;
